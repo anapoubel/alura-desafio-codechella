@@ -1,0 +1,67 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./banner.css";
+@import "./home/infos-card.css";
+@import "./home/infos-dates.css";
+@import "./setores.css";
+@import "./faq.css";
+@import "./garanta-seu-ingresso.css";
+@import "./seu-ingresso.css";
+
+:root {
+   --text-color-main: white;
+   --text-color-second: #444444;
+   --bg-color-main: #4650BD;
+   --bg-color-second: linear-gradient(180deg, #304968 0%, #36C1A0 70%, #4659BD 100%);
+   --bg-color-third: #008364;
+   --bg-color-fourth: #C8DEEF;
+   --font-family-main: 'Raleway', sans-serif;
+   --font-family-second: 'Calistoga', cursive;
+   --font-weigth-1: 800;
+   --font-weigth-2: 500;
+   --font-weigth-3: 400;
+   --hover: #606ADA;
+}
+
+body {
+   font-family: var(--font-family-main);
+   font-size: 16px;
+   font-weight: 700;
+   background-color: var(--bg-color-main);
+   color: var(--text-color-main);
+}
+
+.bold {
+   font-weight: 800;
+   font-size: 3rem;
+}
+.semi-bold {
+   font-weight: 700;
+   font-size: 2.5rem;
+}
+.normal {
+   font-weight: 700;
+   font-size: 2rem;
+}
+.thin {
+   font-weight: 500;
+   font-size: 2rem;
+}
+.main__container {
+   background: var(--bg-color-second);
+}
+
+.btn {
+   padding: 0.7em 0.5em;
+   background: var(--bg-color-main);
+   border-radius: 0.7em;
+   box-shadow: 4px 4px 3px #444444;
+   color: var(--text-color-main);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 0 auto;
+}
+.btn:hover {
+   background: var(--hover);
+}

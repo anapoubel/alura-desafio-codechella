@@ -1,0 +1,89 @@
+.banner {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+}
+.banner.home {
+   background-image: url("../img/Mobile/Imagens/Banner-Homepage-mobile.png");
+}
+.banner.experiencia {
+   background-image: url("../img/Mobile/Imagens/Banner-A-Experiencia.png");
+}
+.banner.setores {
+   background-image: url("../img/Mobile/Imagens/Banner-Mapa-de-setores.png");
+}
+.banner.infos-gerais {
+   background-image: url("../img/Mobile/Imagens/Banner-Infos-gerais.png");
+}
+.banner.ingresso {
+   background-image: url("../img/Mobile/Imagens/Banner-Garanta-seu-ingresso.png");
+}
+.banner.seu-ingresso {
+   background-image: url("../img/Mobile/Imagens/Banner-Seu-ingresso-aqui.png");
+}
+.banner {
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 270px;
+}
+.banner__title {
+   font-family: var(--font-family-second);
+   font-weight: 400;
+   font-size: 2em;
+   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+   .banner.home {
+      background-image: url("../img/Tablet/Imagens/Banner-Homepage-Tablet.png");
+   }
+   .banner.experiencia {
+      background-image: url("../img/Tablet/Imagens/Banner-A-Experiencia.png");
+   }
+   .banner.setores {
+      background-image: url("../img/Tablet/Imagens/Banner-Mapa-de-setores.png");
+   }
+   .banner.infos-gerais {
+      background-image: url("../img/Tablet/Imagens/Banner-Infos-gerais.png");
+   }
+   .banner.ingresso {
+      background-image: url("../img/Tablet/Imagens/Banner-Garanta-seu-ingresso.png");
+   }
+   .banner.seu-ingresso {
+      background-image: url("../img/Tablet/Imagens/Banner-Seu-ingresso-aqui.png");
+   }
+   .banner {
+      height: 384px;
+   }
+   .banner__title {
+      font-size: 4em;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .banner.home {
+      background-image: url("../img/Desktop/Imagens/Banner-homepage-desktop.png");
+   }
+   .banner.experiencia {
+      background-image: url("../img/Desktop/Imagens/Banner-A-Experiencia.png");
+   }
+   .banner.setores {
+      background-image: url("../img/Desktop/Imagens/Banner-Mapa-de-setores.png");
+   }
+   .banner.infos-gerais {
+      background-image: url("../img/Desktop/Imagens/Banner-Infos-gerais.png");
+   }
+   .banner.ingresso {
+      background-image: url("../img/Desktop/Imagens/Banner-Garanta-seu-ingresso.png");
+   }
+   .banner.seu-ingresso {
+      background-image: url("../img/Desktop/Imagens/Banner-Seu-ingresso-aqui.png");
+   }
+   .banner {
+      height: 407px;
+   }
+   .banner__title {
+      font-size: 4em;
+   }
+}
